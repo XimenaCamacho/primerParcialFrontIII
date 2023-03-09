@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import ContenedorForm from "./Components/ContenedorForm";
+import Card from "./Components/Card";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi magnam, dicta natus doloribus et sunt libero amet impedit labore, velit aut? Cumque error dolor repudiandae quisquam eum iusto excepturi repellat.</h1>
+      <ContenedorForm mostrarColor={mostrarColor} />
+      <Card />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
