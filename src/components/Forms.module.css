@@ -15,16 +15,21 @@
     height: 30px;
     padding: 3px;
     border-radius: 10px;
-    border-color: grey;
+    border-color: rgb(200, 194, 194);
+    border-style: solid;
+    background-color: rgb(253, 245, 232);
 }
 
 .seudo_button {
     width: 150px;
     align-self: center;
     margin: 20px;
-    background-color: green;
+    padding: 8px;
+    background-color: rgb(3, 169, 3);
     font-weight: bolder;
     font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
 
 .seudo_button:hover {

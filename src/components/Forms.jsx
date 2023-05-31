@@ -15,7 +15,7 @@ const Forms = () => {
                 <input type="text" />
                 <label htmlFor="Test5">Test5</label>
                 <input type="text" />
-                <input type="submit" value="Enviar" className={style.seudo_button}/>
+                <button type="submit" className={style.seudo_button}>Enviar</button>
             </form>
         </div>
     )
