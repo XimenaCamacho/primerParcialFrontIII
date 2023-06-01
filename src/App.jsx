@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Forms from './components/Forms'
+import Formulario from './components/Formulario'
 import Card from './components/Card'
 import './App.css'
 
@@ -10,7 +10,7 @@ function App() {
     <>
       <div className='div_container'>
         <h1>Carga de Estudiantes</h1>
-        <Forms/>
+        <Formulario/>
         <Card/>
       </div>
     </>
