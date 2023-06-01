@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import style from "./Formulario.module.css"
 
-const Formulario = () => {
+const Formulario = (props) => {
     const [name, setName] = useState("");
     const [book, setBook] = useState("");
     const [color, setColor] = useState("");
@@ -29,6 +29,7 @@ const Formulario = () => {
             return
         }
         setError("")
+        props.onSubmit({name, book, color})
         console.log(name, book, color);
     }
     return (
